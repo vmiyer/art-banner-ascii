@@ -10,4 +10,4 @@ name = "ascii-art-banner"
 version = "0.1.0"
 authors = [{name = "Varun Iyer"}]
 description = "A lightweight ASCII art generator"
-dependencies = ["pyfiglet"]
+dependencies = ["pytest","pyfiglet"]
