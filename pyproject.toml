@@ -1,0 +1,13 @@
+
+### `pyproject.toml`
+```toml
+[build-system]
+requires = ["setuptools >=42"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ascii-art-banner"
+version = "0.1.0"
+authors = [{name = "Your Name"}]
+description = "A lightweight ASCII art generator"
+dependencies = ["pyfiglet"]
